@@ -12,6 +12,9 @@ public class AddressBook {
         Collection.remove(buddy);
     }
     public static void main(String[] args){
-        System.out.println("Address book");
+        BuddyInfo buddy = new BuddyInfo("Tom", "carleton", 613);
+        AddressBook addressBook = new AddressBook();
+        addressBook.addBuddy(buddy);
+        addressBook.removeBuddy(buddy);
     }
 }
