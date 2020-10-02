@@ -20,6 +20,11 @@ public class AddressBook {
         return null;
     }
 
+    // new random method added to branch
+    void randomPrint(){
+        System.out.println("This is a new branch");
+    }
+
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo("Tom", "carleton", 613);
         AddressBook addressBook = new AddressBook();
